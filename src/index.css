@@ -1,13 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+:root {
+  --bs-primary: #c5b5aa; /* Override Bootstrap's primary color */
+  --bs-primary-hover: #b2a59a;
+}
+
+body {
+  background-color: var(--bs-primary); /* Set as the primary background color */
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Forum', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Forum', serif;
 }
+
+p {
+  font-family: 'Forum', serif;
+}
+
+header {
+  font-family: 'Forum', serif;
+  font-size: 2.5rem;
+  margin-top: 25vh;
+}
+
+section h2 {
+  font-family: 'Forum', serif;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+footer {
+  font-family: 'Forum', serif;
+  font-size: 1.2rem;
+}
+
+.forum-font {
+  font-family: 'Forum', serif;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.2); /* Black tint with 50% opacity */
+  position: absolute; /* Position the navbar over the header */
+  width: 100%; /* Stretch it across the top */
+  top: 0; /* Stick to the top */
+  z-index: 10; /* Ensure it stays on top of the header image */
+  transition: background-color 0.3s ease; /* Smooth background transition */
+}
+
+.navbar a {
+  color: white !important; /* Ensure links are visible */
+}
+
+.navbar a:hover {
+  color: #f8d7da !important; /* Optional: Add a hover effect */
+}
+
+.navbar.scrolled {
+  background-color: rgba(0, 0, 0, 0.5); /* Darken navbar background on scroll */
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white; /* Ensure text is readable */
+  position: relative; /* Make it the base layer for the navbar */
+}
+
+header h1 {
+  font-family: 'Forum', serif;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+header p {
+  font-family: 'Forum', serif;
+  font-size: 1.5rem;
+}
+
+.home-bg {
+  background-size: cover; /* Ensure the image covers the section */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent tiling */
+  background-image: url('/src/assets/images/ConnorandChelsea_0273.jpg');
+  height: 100vh; /* Full-screen height */
+  display: flex;
+  flex-direction: column;
+}
+
+.transparent-bg {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.sand-light-bg {
+  background-color: rgba(197,181,170,0.2);
+}
+
+.sand-dark-bg {
+  background-color: rgba(197,181,170,0.3);
+}
+
+.btn-custom {
+  background-color: white;
+  border-color: white;
+  color: white; /* Ensure text is readable */
+}
+
+.btn-custom:hover {
+  background-color: #b2a59a; /* Slightly darker shade for hover */
+  border-color: #b2a59a;
+}
+
+footer {
+  background-size: cover; /* Ensure the image covers the section */
+  background-position: bottom; /* Center the image */
+  background-repeat: no-repeat; /* Prevent tiling */
+  background-image: url('/src/assets/images/ConnorandChelsea_0256.jpg');
+  height: 25em; /* Full-screen height */
+  display: flex;
+  flex-direction: column;
+}
+
