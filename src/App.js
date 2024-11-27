@@ -1,12 +1,13 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter , Route, Routes } from 'react-router-dom';
 import Rsvp from './Pages/Rsvp';
 import Home from './Pages/Home';
+import Faqs from './Pages/Faqs';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       {/* Nav Bar */}
       <nav style={{position: 'absolute'}} className="navbar navbar-expand-lg navbar-dark">
         <div className="container">
@@ -25,7 +26,7 @@ function App() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a className="nav-link forum-font" href="/rsvp">RSVP</a>
+                <a className="nav-link forum-font" href="/#rsvp">RSVP</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link forum-font" href="#wishing-well">Wishing Well</a>
@@ -42,8 +43,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/rsvp" element={<Rsvp />} />
+        <Route path="/faqs" element={<Faqs />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
