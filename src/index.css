@@ -89,7 +89,7 @@ header p {
 
 .home-bg {
   background-size: cover; /* Ensure the image covers the section */
-  background-position: center; /* Center the image */
+  background-position: top; /* Center the image */
   background-repeat: no-repeat; /* Prevent tiling */
   background-image: url('/src/assets/images/ConnorandChelsea_0273.jpg');
   height: 100vh; /* Full-screen height */

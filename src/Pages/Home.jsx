@@ -1,4 +1,5 @@
 import CrocImage from '../assets/images/ConnorandChlesea_0029.jpg';
+import Ceremony from '../assets/images/ConnorandChlesea_0023.jpg';
 import Sophie from '../assets/images/Sophie.jpg';
 import Kirra from '../assets/images/Kirra.jpg';
 import Nykita from '../assets/images/Nykita.jpg';
@@ -10,6 +11,13 @@ import Zach from '../assets/images/Zach.jpg';
 import FaqsSection from '../Components/FaqsSection';
 
 const Home = () => {
+    const scrollToSection = (id) => {
+        const element = document.getElementById(id);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      };
+
     return (
       <div>
         {/* Home Section */}
@@ -18,7 +26,7 @@ const Home = () => {
                 <div>
                     <p>We're Getting Married!</p>
                     <h1>Connor & Chelsea</h1>
-                    <a href="#our-story" className="mt-4 btn btn-light">Read Our Story</a>
+                    <button onClick={() => scrollToSection("our-story")} className="mt-4 btn btn-light">Read Our Story</button>
                 </div>
             </header>
         </div>
@@ -121,20 +129,8 @@ const Home = () => {
                         <p><strong>Time:</strong> [Insert Time]</p>
                         <p><strong>Location:</strong> [Insert Ceremony Location]</p>
                     </div>
-                    <div
-                        className="col-md-6 rounded"
-                        style={{ overflow: "hidden" }}
-                    >
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3538.9113665398395!2d152.9893148751384!3d-27.503131818130875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b91505fd51b4b99%3A0x9d1ec09b9df03dd7!2sHillstone%20St%20Lucia!5e0!3m2!1sen!2sau!4v1732696845422!5m2!1sen!2sau"
-                            width="100%"
-                            height="400px"
-                            style={{ border: "0" }}
-                            allowFullScreen
-                            loading="lazy"
-                            referrerPolicy="no-referrer-when-downgrade"
-                            title="Ceremony Location"
-                        ></iframe>
+                    <div className="col-md-6 order-md-1">
+                        <img src={Ceremony} alt="Reception" className="img-fluid rounded" />
                     </div>
                 </div>
             </div>
