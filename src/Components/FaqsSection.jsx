@@ -7,7 +7,7 @@ const FaqsSection = () => {
                         <h2>FAQs</h2>
                         <p><strong>Can I bring Children?</strong> <br/> No.</p>
                         <p><strong>Can I bring a plus one?</strong> <br/> No.</p>
-                        <p><strong>Do you have a registry?</strong> <br/> We have a cozy home and don't require any additional items, but if you'd like, contributions to our honeymoon fund would be greatly appreciated <a href="https://www.paypal.com/paypalme/theguardswedding" target="_blank" >here</a>.</p>
+                        <p><strong>Do you have a registry?</strong> <br/> We have a cozy home and don't require any additional items, but if you'd like, contributions to our honeymoon fund would be greatly appreciated <a href="https://www.paypal.com/paypalme/theguardswedding" target="_blank" rel="noopener noreferrer">here</a>.</p>
                     </div>
                     <div
                         className="col-md-6 rounded"

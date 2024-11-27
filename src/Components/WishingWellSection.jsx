@@ -7,7 +7,7 @@ const WishingWellSection = () => {
             <div className="row align-items-center">
                 <div className="col-md-6 order-md-2">
                 <h2>Wishing Well</h2>
-                <p>Many of you are traveling across the globe to celebrate with us in Brisbane, so your presence means the world to us and is all we ask for. If you'd still like to contribute to our honeymoon funds, please click <a href="https://www.paypal.com/paypalme/theguardswedding" target="_blank" >here</a> or scan the QR code.</p>
+                <p>Many of you are traveling across the globe to celebrate with us in Brisbane, so your presence means the world to us and is all we ask for. If you'd still like to contribute to our honeymoon funds, please click <a href="https://www.paypal.com/paypalme/theguardswedding" target="_blank" rel="noopener noreferrer" >here</a> or scan the QR code.</p>
                 <p><strong>Paypal</strong> - https://www.paypal.com/paypalme/theguardswedding</p>
                 <p><strong>PayId</strong> - Connor.guard@gmail.com</p>
                 </div>
