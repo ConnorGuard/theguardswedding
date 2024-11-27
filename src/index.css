@@ -97,6 +97,16 @@ header p {
   flex-direction: column;
 }
 
+.rsvp-bg {
+  background-size: cover; /* Ensure the image covers the section */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent tiling */
+  background-image: url('/src/assets/images/rsvp.jpg');
+  height: 60vh; /* Full-screen height */
+  display: flex;
+  flex-direction: column;
+}
+
 .transparent-bg {
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -130,3 +140,34 @@ footer {
   flex-direction: column;
 }
 
+.photo-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.photo-wrapper img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 3px solid #c5b5aa;
+  border-radius: 50%;
+}
+
+.photo-wrapper::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(197, 181, 170, 0.1); /* Light sand color with opacity */
+  border-radius: 50%;
+}
+
+.color-swatch {
+  width: 60px;
+  height: 60px;
+  margin: 0 10px;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
