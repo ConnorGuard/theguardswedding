@@ -1,5 +1,4 @@
 import CrocImage from '../assets/images/ConnorandChlesea_0029.jpg';
-import BeachThinkingImage from '../assets/images/ConnorandChelsea_0179.jpg';
 import Sophie from '../assets/images/Sophie.jpg';
 import Kirra from '../assets/images/Kirra.jpg';
 import Nykita from '../assets/images/Nykita.jpg';
