@@ -4,6 +4,7 @@ import { HashRouter , Route, Routes } from 'react-router-dom';
 import Rsvp from './Pages/Rsvp';
 import Home from './Pages/Home';
 import Faqs from './Pages/Faqs';
+import WishingWell from './Pages/WishingWell';
 
 function App() {
   return (
@@ -29,7 +30,7 @@ function App() {
                 <a className="nav-link forum-font" href="/#rsvp">RSVP</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link forum-font" href="#wishing-well">Wishing Well</a>
+                <a className="nav-link forum-font" href="/#wishing-well">Wishing Well</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link forum-font" href="/#faqs">FAQS</a>
@@ -44,6 +45,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/rsvp" element={<Rsvp />} />
         <Route path="/faqs" element={<Faqs />} />
+        <Route path="/wishing-well" element={<WishingWell />} />
       </Routes>
     </HashRouter>
   );

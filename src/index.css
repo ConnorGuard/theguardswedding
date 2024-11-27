@@ -107,6 +107,28 @@ header p {
   flex-direction: column;
 }
 
+
+.wishing-well-bg {
+  background-size: cover; /* Ensure the image covers the section */
+  background-position: bottom; /* Center the image */
+  background-repeat: no-repeat; /* Prevent tiling */
+  background-image: url('/src/assets/images/ConnorandChelsea_0179.jpg');
+  height: 60vh; /* Full-screen height */
+  display: flex;
+  flex-direction: column;
+}
+
+
+.faqs-bg {
+  background-size: cover; /* Ensure the image covers the section */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent tiling */
+  background-image: url('/src/assets/images/ConnorandChelsea_0171.jpg');
+  height: 60vh; /* Full-screen height */
+  display: flex;
+  flex-direction: column;
+}
+
 .transparent-bg {
   background-color: rgba(0, 0, 0, 0.5);
 }

@@ -137,7 +137,7 @@ const RSVPForm = () => {
 
         <button type="submit" className="btn btn-dark mt-3 mb-3">Submit</button>
         <br/>
-        Any issues, please contact us at <a href="mailto: chelseasales2017@gmail.com"> chelseasales2017@gmail.com</a> or <a href="mailto: connor.guard@gmail.com">  connor.guard@gmail.com</a>.
+        Any issues, please contact us at <a href="mailto: chelseasales2017@gmail.com"> chelseasales2017@gmail.com</a>.
       </form>
     </div>
   );

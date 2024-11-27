@@ -152,7 +152,7 @@ const Home = () => {
                 <p><strong>Location:</strong> [Insert Reception Location]</p>
                 </div>
                 <div className="col-md-6 order-md-1">
-                <img src={CrocImage} alt="Reception" className="img-fluid rounded" />
+                    <img src={CrocImage} alt="Reception" className="img-fluid rounded" />
                 </div>
             </div>
             </div>
@@ -195,7 +195,7 @@ const Home = () => {
             <div className="mt-5 container">
             <h2>RSVP</h2>
             <p>We would be honored by your presence. Please RSVP below</p>
-            <a href="/rsvp" className="btn btn-light">RSVP Now</a>
+            <a href="/#rsvp" className="btn btn-light">RSVP Now</a>
             </div>
         </footer>
       </div>

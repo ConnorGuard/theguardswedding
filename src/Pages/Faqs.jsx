@@ -3,7 +3,7 @@ import FaqsSection from "../Components/FaqsSection";
 const Faqs = () => {
     return (
       <div id="rsvp">
-        <div className='rsvp-bg'>
+        <div className='faqs-bg'>
             <header className="text-white">
                 <div>
                     <h1>FAQs</h1>
