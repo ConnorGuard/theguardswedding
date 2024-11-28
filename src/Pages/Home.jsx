@@ -1,5 +1,4 @@
 import CrocImage from '../assets/images/ConnorandChlesea_0029.jpg';
-import Ceremony from '../assets/images/ConnorandChlesea_0023.jpg';
 import Sophie from '../assets/images/Sophie.jpg';
 import Kirra from '../assets/images/Kirra.jpg';
 import Nykita from '../assets/images/Nykita.jpg';
@@ -67,7 +66,7 @@ const Home = () => {
                         <p><strong>Location:</strong> [Insert Ceremony Location]</p>
                     </div>
                     <div className="col-md-6 order-md-1">
-                        <img src={Ceremony} alt="Reception" className="img-fluid rounded" />
+                        <img src={CrocImage} alt="Reception" className="img-fluid rounded" />
                     </div>
                 </div>
             </div>
