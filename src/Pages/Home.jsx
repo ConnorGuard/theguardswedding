@@ -39,7 +39,7 @@ const Home = () => {
         </div>
 
         {/* Our Story Section */}
-        <section id="our-story" className="sand-dark-bg py-5 text-center">
+        <section id="our-story" className="sand-light-bg py-5 text-center">
             <div className="container">
             <h2>Our Story</h2>
                 <p className="lead">They met on Instagram, of all places. He slid into Chelsea’s DMs, quickly discovering her love for the movie Hot Rod. 
@@ -55,13 +55,13 @@ const Home = () => {
         </section>
 
 
-        {/* Ceremony Section */}
-        <section id="ceremony" className="py-5 sand-light-bg">
+        {/* Ceremony & Reception Section */}
+        <section id="ceremony" className="py-5 sand-dark-bg">
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-md-6">
-                        <h2>Ceremony</h2>
-                        <p>We are thrilled to invite you to witness our special day as we say “I Do.”</p>
+                        <h2>Ceremony & Reception</h2>
+                        <p>We are excited to invite you to join us on our special day as we exchange vows and celebrate with food and dancing at our reception!</p>
                         <p><strong>Date:</strong> [Insert Date]</p>
                         <p><strong>Time:</strong> [Insert Time]</p>
                         <p><strong>Location:</strong> [Insert Ceremony Location]</p>
@@ -73,35 +73,17 @@ const Home = () => {
             </div>
         </section>
 
-        {/* Reception Section */}
-        <section id="reception" className="sand-dark-bg py-5">
-            <div className="container">
-            <div className="row align-items-center">
-                <div className="col-md-6 order-md-2">
-                <h2>Reception</h2>
-                <p>Let’s celebrate with love, laughter, and dancing at our reception.</p>
-                <p><strong>Date:</strong> [Insert Date]</p>
-                <p><strong>Time:</strong> [Insert Time]</p>
-                <p><strong>Location:</strong> [Insert Reception Location]</p>
-                </div>
-                <div className="col-md-6 order-md-1">
-                    <img src={CrocImage} alt="Reception" className="img-fluid rounded" />
-                </div>
-            </div>
-            </div>
-        </section>
-
         {/* Guest Attire */}
         <section id="guest-attire" className="sand-light-bg py-5">
             <div className="container">
             <div className="row align-items-center">
                 {/* Text Section */}
                 <div className="col-md-6">
-                <h2>Guest Attire</h2>
-                <p>Wear whats comfortable & look your best!</p>
-                <p><strong>Dress Code</strong><br/>Formal / Cocktail.</p>
-                <p><strong>Gentlemen</strong><br/>Suit with a tie or bow tie and dress shoes, or opt for a slightly more casual look with a blazer, dress shirt.</p>
-                <p><strong>Ladies</strong><br/>Formal gown or a chic cocktail dress, or for a slightly more casual look, a jumpsuit or a stylish midi/maxi dress paired with dressy flats or sandals.</p>
+                    <h2>Guest Attire</h2>
+                    <p>Wear whats comfortable & look your best!</p>
+                    <p><strong>Dress Code</strong><br/>Formal / Cocktail.</p>
+                    <p><strong>Gentlemen</strong><br/>Suit with a tie or bow tie and dress shoes, or opt for a slightly more casual look with a blazer, dress shirt.</p>
+                    <p><strong>Ladies</strong><br/>Formal gown or a chic cocktail dress, or for a slightly more casual look, a jumpsuit or a stylish midi/maxi dress paired with dressy flats or sandals.</p>
                 </div>
 
                 {/* Color Palette Section */}
