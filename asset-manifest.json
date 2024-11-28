@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.6928efc4.css",
-    "main.js": "/static/js/main.0321c838.js",
+    "main.css": "/static/css/main.cfca360a.css",
+    "main.js": "/static/js/main.d1c8e0a0.js",
     "static/js/453.20391c6f.chunk.js": "/static/js/453.20391c6f.chunk.js",
     "static/media/ConnorandChelsea_0179.jpg": "/static/media/ConnorandChelsea_0179.cabe7a432d9dd1cb2fba.jpg",
     "static/media/ConnorandChlesea_0029.jpg": "/static/media/ConnorandChlesea_0029.24a66103d1abdc753ff2.jpg",
-    "static/media/spin.png": "/static/media/spin.5d6141a3e1a5c1698188.png",
     "static/media/ConnorandChelsea_0256.jpg": "/static/media/ConnorandChelsea_0256.b9cd2b36ee40f90553d1.jpg",
     "static/media/rsvp.jpg": "/static/media/rsvp.f43bab7563b06ff0f650.jpg",
     "static/media/ConnorandChelsea_0171.jpg": "/static/media/ConnorandChelsea_0171.072aba49052a9613bd1a.jpg",
     "static/media/Kirra.jpg": "/static/media/Kirra.91c992a22f78c520af36.jpg",
+    "static/media/spin.jpg": "/static/media/spin.2558bc9465b35281aed1.jpg",
     "static/media/unisex-inspo.jpg": "/static/media/unisex-inspo.a80f93fc2861fc5d3c6c.jpg",
     "static/media/ladies-inspo.jpg": "/static/media/ladies-inspo.128d230c7c3320c32676.jpg",
     "static/media/RingBoy.jpg": "/static/media/RingBoy.5fc5f5986fbd8a45c6ec.jpg",
@@ -26,12 +26,12 @@
     "static/media/Joel.jpg": "/static/media/Joel.c5e159719fdf482352df.jpg",
     "static/media/Silver.jpg": "/static/media/Silver.ddb6ea3176a96be9c676.jpg",
     "index.html": "/index.html",
-    "main.6928efc4.css.map": "/static/css/main.6928efc4.css.map",
-    "main.0321c838.js.map": "/static/js/main.0321c838.js.map",
+    "main.cfca360a.css.map": "/static/css/main.cfca360a.css.map",
+    "main.d1c8e0a0.js.map": "/static/js/main.d1c8e0a0.js.map",
     "453.20391c6f.chunk.js.map": "/static/js/453.20391c6f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6928efc4.css",
-    "static/js/main.0321c838.js"
+    "static/css/main.cfca360a.css",
+    "static/js/main.d1c8e0a0.js"
   ]
 }
