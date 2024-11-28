@@ -1,13 +1,13 @@
 const FaqsSection = () => {
     return (
-        <section id="ceremony" className="py-5 sand-light-bg">
+        <section id="ceremony" className="py-5 sand-dark-bg">
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-md-6">
                         <h2>FAQs</h2>
                         <p><strong>Can I take photos on the day?</strong> <br/> We will be having an unplugged ceremony, however take as many as you like at the reception!</p>
                         <p><strong>Can I bring my children?</strong> <br/> We will be having a (mostly) adult only wedding! Named invitees only please.</p>
-                        <p><strong>Is there a dress code?</strong> <br/> Formal attire, find inspo on our home page!</p>
+                        <p><strong>Is there a dress code?</strong> <br/> Formal / Cocktail attire, find inspo on our home page!</p>
                         <p><strong>Can I bring a plus one?</strong> <br/> Our venue has a strict head count, named invitees only please.</p>
                         <p><strong>Do you have a registry?</strong> <br/> We have a cozy home and don't require any additional items, but if you'd like, contributions to our honeymoon fund would be greatly appreciated <a href="/#wishing-well" target="_blank" rel="noopener noreferrer">here</a>.</p>
                     </div>
