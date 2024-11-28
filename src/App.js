@@ -26,6 +26,9 @@ function App() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
+            <li className="nav-item">
+                <a className="nav-link forum-font" href="/#">Home</a>
+              </li>
               <li className="nav-item">
                 <a className="nav-link forum-font" href="/#rsvp">RSVP</a>
               </li>

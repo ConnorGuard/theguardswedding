@@ -8,6 +8,13 @@ import Joel from '../assets/images/Joel.jpg';
 import Jordan from '../assets/images/Jordan.jpg';
 import Noah from '../assets/images/Noah.jpg';
 import Zach from '../assets/images/Zach.jpg';
+import RingBoy from '../assets/images/RingBoy.jpg';
+import Maddi from '../assets/images/Maddi.jpg';
+import Silver from '../assets/images/Silver.jpg';
+import Gold from '../assets/images/Gold.jpg';
+import MensInspo from '../assets/images/mens-inspo.png';
+import LadiesxInspo from '../assets/images/ladies-inspo.jpg';
+import UnisexInspo from '../assets/images/unisex-inspo.jpg';
 import FaqsSection from '../Components/FaqsSection';
 
 const Home = () => {
@@ -35,13 +42,14 @@ const Home = () => {
         <section id="our-story" className="sand-dark-bg py-5 text-center">
             <div className="container">
             <h2>Our Story</h2>
-                <p className="lead">We met on Instagram, of all places. 
-                I slid into Chelsea’s DMs, quickly figured out she likes the movie Hot Rod, and next thing you know, we’re at Sushi Train for our first date. 
-                I was a bit nervous at first, but we instantly hit it off. The second date in Caloundra? Yeah, that’s when I realized I was falling for her. 
-                But it wasn’t until we were in Minecraft, building stuff together, that Chelsea casually dropped "I love you". I wasn’t expecting it, but I was pretty stoked.
-                From there, it was pretty much non-stop fun. She drags me to every theater show in town, and I make her watch UFC. And, yeah, I come home from Jiu-Jitsu with bruises, 
-                but that’s just part of the deal. We have our quirks, but it all just works. And then, on November 6, 2024, with the sun setting over Palm Cove, I asked her to marry me. 
-                The best decision I’ve ever made.
+                <p className="lead">They met on Instagram, of all places. He slid into Chelsea’s DMs, quickly discovering her love for the movie Hot Rod. 
+                    Soon after, they were at Sushi Train for their first date. Both were nervous, but they instantly connected. By the second date in Caloundra, 
+                    he realized he was falling for her. It wasn’t until they were building together in Minecraft that Chelsea casually dropped, "I love you." 
+                    The moment caught him off guard, but he was thrilled.
+                    From there, their relationship was filled with adventure. 
+                    She took him to every theater show in town, while he drags her to UFC. Despite coming home from Jiu-Jitsu with bruises, it became part of the norm. 
+                    Their quirks complemented each other perfectly. On November 6, 2024, with the sun setting over Palm Cove, he asked her to marry him. 
+                    The best decision Connor has ever made.
                 </p>
             </div>
         </section>
@@ -53,33 +61,33 @@ const Home = () => {
             <div className="row justify-content-center">
                 {/* Bridesmaids */}
                 <div className="col-lg-6 p-5">
-                <h3 className="mb-3">Bridesmaids</h3>
-                <div className="row">
-                    <div className="col-6 col-md-3 mb-4">
-                    <div className="photo-wrapper">
-                        <img src={Kirra} alt="Bridesmaid 2" className="img-fluid rounded-circle" />
+                    <h3 className="mb-3">Bridesmaids</h3>
+                    <div className="row">
+                        <div className="col-6 col-md-3 mb-4">
+                            <div className="photo-wrapper">
+                                <img src={Kayla} alt="Bridesmaid 4" className="img-fluid rounded-circle" />
+                            </div>
+                            <p className="mt-2">Kayla<br/> <b>Maid of honor</b></p>
+                        </div>
+                        <div className="col-6 col-md-3 mb-4">
+                            <div className="photo-wrapper">
+                                <img src={Nykita} alt="Bridesmaid 3" className="img-fluid rounded-circle" />
+                            </div>
+                            <p className="mt-2">Nykita</p>
+                        </div>
+                        <div className="col-6 col-md-3 mb-4">
+                            <div className="photo-wrapper">
+                                <img src={Sophie} alt="Bridesmaid 1" className="img-fluid rounded-circle" />
+                            </div>
+                            <p className="mt-2">Sophie</p>
+                        </div>
+                        <div className="col-6 col-md-3 mb-4">
+                            <div className="photo-wrapper">
+                                <img src={Kirra} alt="Bridesmaid 2" className="img-fluid rounded-circle" />
+                            </div>
+                            <p className="mt-2">Kirra</p>
+                        </div>
                     </div>
-                    <p className="mt-2">Kirra</p>
-                    </div>
-                    <div className="col-6 col-md-3 mb-4">
-                    <div className="photo-wrapper">
-                        <img src={Sophie} alt="Bridesmaid 1" className="img-fluid rounded-circle" />
-                    </div>
-                    <p className="mt-2">Sophie</p>
-                    </div>
-                    <div className="col-6 col-md-3 mb-4">
-                    <div className="photo-wrapper">
-                        <img src={Nykita} alt="Bridesmaid 3" className="img-fluid rounded-circle" />
-                    </div>
-                    <p className="mt-2">Nykita</p>
-                    </div>
-                    <div className="col-6 col-md-3 mb-4">
-                    <div className="photo-wrapper">
-                        <img src={Kayla} alt="Bridesmaid 4" className="img-fluid rounded-circle" />
-                    </div>
-                    <p className="mt-2">Kayla<br/> <b>Maid of honor</b></p>
-                    </div>
-                </div>
                 </div>
 
                 {/* Groomsmen */}
@@ -112,7 +120,26 @@ const Home = () => {
                     </div>
                 </div>
                 </div>
-            </div>
+                </div>
+                <div className="row justify-content-center">
+                    <div className="col-lg-6">
+                        <div className="row justify-content-center">
+                        <div className="col-6 col-md-3 mb-4">
+                            <div className="photo-wrapper">
+                            <img src={Maddi} alt="Bridesmaid 4" className="img-fluid rounded-circle" />
+                            </div>
+                            <p className="mt-2">Maddi<br /> <b>MC</b></p>
+                        </div>
+                        <div className="col-6 col-md-3 mb-4">
+                            <div className="photo-wrapper">
+                            <img src={RingBoy} alt="Groomsman 1" className="img-fluid rounded-circle" />
+                            </div>
+                            <p className="mt-2">Zepher <br /> <b>Ring Boy</b></p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
 
@@ -161,24 +188,46 @@ const Home = () => {
                 {/* Text Section */}
                 <div className="col-md-6">
                 <h2>Guest Attire</h2>
-                <p>Please look your best!</p>
-                <p><strong>Dress Code</strong><br/> Black Tie</p>
-                <p><strong>Gentlemen</strong><br/> Black Suit, White Shirt, Black Shoes</p>
-                <p><strong>Ladies</strong><br/> Formal gowns or cocktail dress</p>
+                <p>Wear whats comfortable & look your best!</p>
+                <p><strong>Dress Code</strong><br/>Formal / Smart Casual</p>
+                <p><strong>Gentlemen</strong><br/>Suit with a tie or bow tie and dress shoes, or opt for a slightly more casual look with a blazer, dress shirt.</p>
+                <p><strong>Ladies</strong><br/>Formal gown or a chic cocktail dress, or for a slightly more casual look, a tailored jumpsuit or a stylish midi dress paired with dressy flats or sandals.</p>
                 </div>
 
                 {/* Color Palette Section */}
                 <div className="col-md-6">
-                <div className="d-flex justify-content-center">
-                    <h3>Color Palette</h3>
-                </div>
-                <div className="d-flex justify-content-center">
-                    <div className="color-swatch" style={{ backgroundColor: "#000000" }}></div>
-                    <div className="color-swatch" style={{ backgroundColor: "#a39082" }}></div>
-                    <div className="color-swatch" style={{ backgroundColor: "#f2ebe6" }}></div>
-                    <div className="color-swatch" style={{ backgroundColor: "#f9e4d7" }}></div>
-                    <div className="color-swatch" style={{ backgroundColor: "#b3c4b3" }}></div>
-                </div>
+                    <div className="d-flex justify-content-center">
+                        <h3>Color Palette</h3>
+                    </div>
+                    <div className="d-flex justify-content-center">
+                        <div className="color-swatch" style={{ backgroundColor: "#000000" }}></div>
+                        <div className="color-swatch" style={{ backgroundColor: "#b59076" }}></div>
+                        <div className="color-swatch" style={{ backgroundColor: "#f2ebe6" }}></div>
+                        <div className="color-swatch" style={{ backgroundColor: "#f7e6ca" }}></div>
+                        <div className="color-swatch" style={{ backgroundColor: "#616254" }}></div>
+                    </div>
+                    <div className="d-flex justify-content-center">
+                        <div className="color-swatch">
+                            <img src={Silver} alt="Bridesmaid 4" className="img-fluid rounded-circle" />
+                        </div>
+                        <div className="color-swatch">
+                            <img src={Gold} alt="Bridesmaid 4" className="img-fluid rounded-circle" />
+                        </div>
+                    </div>
+                    <div className="d-flex justify-content-center mt-5">
+                        <h3>Inspo</h3>
+                    </div>
+                    <div className="d-flex justify-content-center">
+                        <div className="inspo-swatch">
+                            <img src={LadiesxInspo} alt="LadiesxInspo" className="img-fluid rounded-circle" />
+                        </div>
+                        <div className="inspo-swatch">
+                            <img src={UnisexInspo} alt="UnisexInspo" className="img-fluid rounded-circle" />
+                        </div>
+                        <div className="inspo-swatch">
+                            <img src={MensInspo} alt="MensInspo" className="img-fluid rounded-circle" />
+                        </div>
+                    </div>
                 </div>
             </div>
             </div>
