@@ -139,7 +139,7 @@ const Home = () => {
                             <div className="photo-wrapper">
                                 <img src={Kayla} alt="Bridesmaid 4" className="img-fluid rounded-circle" />
                             </div>
-                            <p className="mt-2">Kayla<br/> <b>Maid of honor</b></p>
+                            <p className="mt-2">Kayla<br/> <b>Maid of honour</b></p>
                         </div>
                         <div className="col-6 col-md-3 mb-4">
                             <div className="photo-wrapper">

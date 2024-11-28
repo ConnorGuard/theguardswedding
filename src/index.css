@@ -91,7 +91,7 @@ header p {
   background-size: cover; /* Ensure the image covers the section */
   background-position: top; /* Center the image */
   background-repeat: no-repeat; /* Prevent tiling */
-  background-image: url('/src/assets/images/ConnorandChelsea_0273.jpg');
+  background-image: url('/src/assets/images/spin.png');
   height: 100vh; /* Full-screen height */
   display: flex;
   flex-direction: column;
