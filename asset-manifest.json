@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.502a6e3f.css",
-    "main.js": "/static/js/main.e9f4fd63.js",
+    "main.css": "/static/css/main.2a4b05c2.css",
+    "main.js": "/static/js/main.6da1db08.js",
     "static/js/453.20391c6f.chunk.js": "/static/js/453.20391c6f.chunk.js",
     "static/media/ConnorandChelsea_0179.jpg": "/static/media/ConnorandChelsea_0179.cabe7a432d9dd1cb2fba.jpg",
     "static/media/ConnorandChlesea_0029.jpg": "/static/media/ConnorandChlesea_0029.24a66103d1abdc753ff2.jpg",
     "static/media/ConnorandChelsea_0256.jpg": "/static/media/ConnorandChelsea_0256.b9cd2b36ee40f90553d1.jpg",
     "static/media/ConnorandChlesea_0023.jpg": "/static/media/ConnorandChlesea_0023.8a2e642cc6260cb0cd51.jpg",
     "static/media/rsvp.jpg": "/static/media/rsvp.f43bab7563b06ff0f650.jpg",
-    "static/media/mens-inspo.png": "/static/media/mens-inspo.915f5f2376b80da16b66.png",
     "static/media/ConnorandChelsea_0273.jpg": "/static/media/ConnorandChelsea_0273.5075fd8c8a6c32d170a0.jpg",
     "static/media/ConnorandChelsea_0171.jpg": "/static/media/ConnorandChelsea_0171.072aba49052a9613bd1a.jpg",
     "static/media/Kirra.jpg": "/static/media/Kirra.91c992a22f78c520af36.jpg",
@@ -21,18 +20,19 @@
     "static/media/Sophie.jpg": "/static/media/Sophie.cceecee8791d631c2dcc.jpg",
     "static/media/Nykita.jpg": "/static/media/Nykita.f499e4ae9230bdd3e749.jpg",
     "static/media/Kayla.jpg": "/static/media/Kayla.cbe12a620c8812f8ff0b.jpg",
+    "static/media/mens-inspo.jpg": "/static/media/mens-inspo.70ced190858426def9c4.jpg",
     "static/media/Jordan.jpg": "/static/media/Jordan.b03f3e55716cefb7d273.jpg",
     "static/media/Noah.jpg": "/static/media/Noah.c2fb89a0331ae584cd52.jpg",
     "static/media/Zach.jpg": "/static/media/Zach.939245497053b143d6f0.jpg",
     "static/media/Joel.jpg": "/static/media/Joel.c5e159719fdf482352df.jpg",
     "static/media/Silver.jpg": "/static/media/Silver.ddb6ea3176a96be9c676.jpg",
     "index.html": "/index.html",
-    "main.502a6e3f.css.map": "/static/css/main.502a6e3f.css.map",
-    "main.e9f4fd63.js.map": "/static/js/main.e9f4fd63.js.map",
+    "main.2a4b05c2.css.map": "/static/css/main.2a4b05c2.css.map",
+    "main.6da1db08.js.map": "/static/js/main.6da1db08.js.map",
     "453.20391c6f.chunk.js.map": "/static/js/453.20391c6f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.502a6e3f.css",
-    "static/js/main.e9f4fd63.js"
+    "static/css/main.2a4b05c2.css",
+    "static/js/main.6da1db08.js"
   ]
 }
