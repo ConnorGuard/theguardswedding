@@ -81,8 +81,8 @@ const Home = () => {
                     <h2>Guest Attire</h2>
                     <p>Wear whats comfortable & look your best!</p>
                     <p><strong>Dress Code</strong><br/>Formal / Cocktail.</p>
-                    <p><strong>Gentlemen</strong><br/>Suit with a tie or bow tie and dress shoes, or opt for a slightly more casual look with a blazer, dress shirt.</p>
                     <p><strong>Ladies</strong><br/>Formal gown or a chic cocktail dress, or for a slightly more casual look, a jumpsuit or a stylish midi/maxi dress paired with dressy flats or sandals.</p>
+                    <p><strong>Gentlemen</strong><br/>Suit with a tie or bow tie and dress shoes, or opt for a slightly more casual look with a blazer, dress shirt.</p>
                 </div>
 
                 {/* Color Palette Section */}
