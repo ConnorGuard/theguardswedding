@@ -1,4 +1,3 @@
-import CrocImage from '../assets/images/ConnorandChlesea_0029.jpg';
 import Sophie from '../assets/images/Sophie.jpg';
 import Kirra from '../assets/images/Kirra.jpg';
 import Nykita from '../assets/images/Nykita.jpg';
@@ -11,9 +10,7 @@ import RingBoy from '../assets/images/RingBoy.jpg';
 import Maddi from '../assets/images/Maddi.jpg';
 import Silver from '../assets/images/Silver.jpg';
 import Gold from '../assets/images/Gold.jpg';
-import MensInspo from '../assets/images/mens-inspo.jpg';
-import LadiesxInspo from '../assets/images/ladies-inspo.jpg';
-import UnisexInspo from '../assets/images/unisex-inspo.jpg';
+import TheRefinery from '../assets/images/TheRefinery.jpg';
 import FaqsSection from '../Components/FaqsSection';
 
 const Home = () => {
@@ -41,12 +38,12 @@ const Home = () => {
         <section id="our-story" className="sand-light-bg py-5 text-center">
             <div className="container">
             <h2>Our Story</h2>
-                <p className="lead">They met on Instagram, of all places. He slid into Chelsea’s DMs, quickly discovering her love for the movie Hot Rod. 
+                <p className="lead">They met on Instagram, of all places. Connor slid into Chelsea’s DMs, quickly discovering her love for the movie Hot Rod. 
                     Soon after, they were at Sushi Train for their first date. Both were nervous, but they instantly connected. By the second date in Caloundra, 
-                    he realized he was falling for her. It wasn’t until they were building together in Minecraft that Chelsea casually dropped, "I love you." 
-                    The moment caught him off guard, but he was thrilled.
+                    Connor realized he was falling for her. It wasn’t until they were building together in Minecraft that Chelsea casually dropped, "I love you." 
+                    The moment caught him off guard (pun intended), but he was thrilled.
                     From there, their relationship was filled with adventure. 
-                    She took him to every theater show in town, while he drags her to UFC. Despite coming home from Jiu-Jitsu with bruises, it became part of the norm. 
+                    She took him to every theatre show in town, while he drags her to watch the UFC.
                     Their quirks complemented each other perfectly. On November 6, 2024, with the sun setting over Palm Cove, he asked her to marry him. 
                     The best decision Connor has ever made.
                 </p>
@@ -60,13 +57,13 @@ const Home = () => {
                 <div className="row align-items-center">
                     <div className="col-md-6">
                         <h2>Ceremony & Reception</h2>
-                        <p>We are excited to invite you to join us on our special day as we exchange vows and celebrate with food and dancing at our reception!</p>
-                        <p><strong>Date:</strong> [Insert Date]</p>
-                        <p><strong>Time:</strong> [Insert Time]</p>
-                        <p><strong>Location:</strong> [Insert Ceremony Location]</p>
+                        <p style={{maxWidth: '600px' }}>We’re so excited to invite you to join us on our special day as we exchange vows and celebrate this milestone with good food, great music, and some dancing. We’d love for you to be part of the joy and memories!</p>
+                        <p><strong>Date</strong> - Thursday, 19th June 2025</p>
+                        <p><strong>Time</strong> - 3:00pm - 10:00pm</p>
+                        <p><strong>Location</strong> - The Refinery, 12 Austin St, Newstead QLD 4006</p>
                     </div>
                     <div className="col-md-6 order-md-1">
-                        <img src={CrocImage} alt="Reception" className="img-fluid rounded" />
+                        <img src={TheRefinery} alt="Reception" className="img-fluid rounded" />
                     </div>
                 </div>
             </div>
@@ -82,42 +79,28 @@ const Home = () => {
                     <p>Wear whats comfortable & look your best!</p>
                     <p><strong>Dress Code</strong><br/>Formal / Cocktail.</p>
                     <p><strong>Ladies</strong><br/>Formal gown or a chic cocktail dress, or for a slightly more casual look, a jumpsuit or a stylish midi/maxi dress paired with dressy flats or sandals.</p>
-                    <p><strong>Gentlemen</strong><br/>Suit with a tie or bow tie and dress shoes, or opt for a slightly more casual look with a blazer, dress shirt.</p>
+                    <p><strong>Gentlemen</strong><br/>Suit with a tie or bow tie and dress shoes, or opt for a slightly more casual look with a blazer / dress shirt.</p>
                 </div>
 
                 {/* Color Palette Section */}
                 <div className="col-md-6">
                     <div className="d-flex justify-content-center">
-                        <h3>Color Palette</h3>
+                        <h3>Color Palette Inspo</h3>
                     </div>
                     <div className="d-flex justify-content-center">
                         <div className="color-swatch" style={{ backgroundColor: "#000000" }}></div>
+                        <div className="color-swatch" style={{ backgroundColor: "#5c414a" }}></div>
                         <div className="color-swatch" style={{ backgroundColor: "#b59076" }}></div>
-                        <div className="color-swatch" style={{ backgroundColor: "#f2ebe6" }}></div>
-                        <div className="color-swatch" style={{ backgroundColor: "#f7e6ca" }}></div>
-                        <div className="color-swatch" style={{ backgroundColor: "#616254" }}></div>
+                        <div className="color-swatch" style={{ backgroundColor: "#ddb6aa" }}></div>
                     </div>
                     <div className="d-flex justify-content-center">
-                        <div className="color-swatch">
-                            <img src={Silver} alt="Bridesmaid 4" className="img-fluid rounded-circle" />
-                        </div>
                         <div className="color-swatch">
                             <img src={Gold} alt="Bridesmaid 4" className="img-fluid rounded-circle" />
                         </div>
-                    </div>
-                    <div className="d-flex justify-content-center mt-5">
-                        <h3>Inspo</h3>
-                    </div>
-                    <div className="d-flex justify-content-center">
-                        <div className="inspo-swatch">
-                            <img src={LadiesxInspo} alt="LadiesxInspo" className="img-fluid rounded-circle" />
+                        <div className="color-swatch">
+                            <img src={Silver} alt="Bridesmaid 4" className="img-fluid rounded-circle" />
                         </div>
-                        <div className="inspo-swatch">
-                            <img src={UnisexInspo} alt="UnisexInspo" className="img-fluid rounded-circle" />
-                        </div>
-                        <div className="inspo-swatch">
-                            <img src={MensInspo} alt="MensInspo" className="img-fluid rounded-circle" />
-                        </div>
+                        <div className="color-swatch" style={{ backgroundColor: "#c4c6b5" }}></div>
                     </div>
                 </div>
             </div>
@@ -130,9 +113,9 @@ const Home = () => {
         <section id="bridal-party" className="py-5 sand-light-bg text-center">
             <div className="container">
             <h2 className="mb-4">Wedding Party</h2>
-            <div className="row justify-content-center">
+            <div className="row justify-content-center gx-6">
                 {/* Bridesmaids */}
-                <div className="col-lg-6 p-5">
+                <div className="col-lg-5">
                     <h3 className="mb-3">Bridesmaids</h3>
                     <div className="row">
                         <div className="col-6 col-md-3 mb-4">
@@ -163,14 +146,14 @@ const Home = () => {
                 </div>
 
                 {/* Groomsmen */}
-                <div className="col-lg-6 p-5">
+                <div className="col-lg-5">
                 <h3 className="mb-3">Groomsmen</h3>
                 <div className="row">
                     <div className="col-6 col-md-3 mb-4">
-                    <div className="photo-wrapper">
-                        <img src={Noah} alt="Groomsman 1" className="img-fluid rounded-circle" />
-                    </div>
-                    <p className="mt-2">Noah <br/> <b>Best Man</b></p>
+                        <div className="photo-wrapper">
+                            <img src={Noah} alt="Groomsman 1" className="img-fluid rounded-circle" />
+                        </div>
+                        <p className="mt-2">Noah <br/> <b>Best Man</b></p>
                     </div>
                     <div className="col-6 col-md-3 mb-4">
                     <div className="photo-wrapper">
@@ -193,8 +176,8 @@ const Home = () => {
                 </div>
                 </div>
                 </div>
-                <div className="row justify-content-center p-5">
-                    <div className="col-lg-6">
+                <div className="row justify-content-center">
+                    <div className="col-lg-5">
                         <div className="row justify-content-center">
                         <div className="col-6 col-md-3 mb-4">
                             <div className="photo-wrapper">
@@ -218,9 +201,9 @@ const Home = () => {
         {/* RSVP Section */}
         <footer id="rsvp" className="sand-light-bg text-white text-center py-5">
             <div className="mt-5 container">
-            <h2>RSVP</h2>
-            <p>We would be honored by your presence. Please RSVP below</p>
-            <a href="/#rsvp" className="btn btn-light">RSVP Now</a>
+                <h2>RSVP</h2>
+                <p>We would be honored by your presence. Please RSVP below</p>
+                <a href="/#rsvp" className="btn btn-light">RSVP Now</a>
             </div>
         </footer>
       </div>

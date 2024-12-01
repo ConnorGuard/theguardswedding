@@ -18,7 +18,7 @@ const FaqsSection = () => {
                     >
                         <h2>Venue location</h2>
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3538.9113665398395!2d152.9893148751384!3d-27.503131818130875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b91505fd51b4b99%3A0x9d1ec09b9df03dd7!2sHillstone%20St%20Lucia!5e0!3m2!1sen!2sau!4v1732696845422!5m2!1sen!2sau"
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14163.013460605065!2d153.0438484!3d-27.4457961!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b91597beb96734b%3A0xf5fdbf989977a6c0!2sThe%20Refinery!5e0!3m2!1sen!2sau!4v1733014069556!5m2!1sen!2sau"
                             width="100%"
                             height="400px"
                             style={{ border: "0" }}

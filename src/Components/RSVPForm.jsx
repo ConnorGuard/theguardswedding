@@ -23,38 +23,33 @@ const RSVPForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    emailjs
-      .send(
-        process.env.REACT_APP_EMAILJS_SERVICE_ID, 
-        process.env.REACT_APP_EMAILJS_TEMPLATE_ID, 
-        formData,          
-        process.env.REACT_APP_EMAILJS_USER_ID     
-      )
-      .then(
-        (response) => {
-          console.log('SUCCESS!', response.status, response.text);
-          setFormData({
-            first_name: '',
-            last_name: '',
-            attending: '',
-            food_restrictions: '',
-            comments: '',
-          });
-          alert('Thanks so much for RSVPing!');
-          navigate('/');
-        },
-        (error) => {
-          console.log('FAILED...', error);
-          setFormData({
-            first_name: '',
-            last_name: '',
-            attending: '',
-            food_restrictions: '',
-            comments: '',
-          });
-          alert('Error sending RSVP.');
-        }
-      );
+    try{
+      emailjs
+        .send(
+          process.env.REACT_APP_EMAILJS_SERVICE_ID, 
+          process.env.REACT_APP_EMAILJS_TEMPLATE_ID, 
+          formData,          
+          process.env.REACT_APP_EMAILJS_USER_ID     
+        )
+        .then(
+          (response) => {
+            console.log('SUCCESS!', response.status, response.text);
+            setFormData({
+              first_name: '',
+              last_name: '',
+              attending: '',
+              food_restrictions: '',
+              comments: '',
+            });
+            alert('Thanks so much for RSVPing!');
+            navigate('/');
+          },
+        );
+    }
+    catch(err){
+      console.log('FAILED...', err);
+      alert('Oops RSVP didn\'t work 😔 please send details to chelseasales2017@gmail.com');
+    }
   };
 
   return (
@@ -114,7 +109,7 @@ const RSVPForm = () => {
         </div>
 
         <div className="form-group">
-          <label htmlFor="food_restrictions">Any food restrictions?</label>
+          <label htmlFor="food_restrictions">Any dietary requirements?</label>
           <textarea
             id="food_restrictions"
             name="food_restrictions"
