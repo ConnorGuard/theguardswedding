@@ -102,6 +102,9 @@ const Home = () => {
                         </div>
                         <div className="color-swatch" style={{ backgroundColor: "#c4c6b5" }}></div>
                     </div>
+                    <div className="d-flex justify-content-center pt-4">
+                        <p>This is just a suggestion 😊</p>
+                    </div>
                 </div>
             </div>
             </div>
