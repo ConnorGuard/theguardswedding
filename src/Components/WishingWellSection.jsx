@@ -7,10 +7,10 @@ const WishingWellSection = () => {
             <div className="row align-items-center">
                 <div className="col-md-6 order-md-1">
                     <h2>Wishing Well</h2>
-                    <p>Many of you are traveling across the globe to celebrate with us in Brisbane, so your presence means the world to us and is all we ask for. If you'd still like to contribute to our honeymoon funds, please click <a href="https://www.paypal.com/paypalme/theguardswedding" target="_blank" rel="noopener noreferrer" >here</a> or scan the QR code.</p>
+                    <p>Many of you are traveling across the globe to celebrate with us in Brisbane, so your presence means the world and is all we ask for. If you'd still like to contribute, please follow the link <a href="https://www.paypal.com/paypalme/theguardswedding" target="_blank" rel="noopener noreferrer" >here</a> or scan the QR code.</p>
                     <p><strong>Paypal</strong> <br /> https://www.paypal.com/paypalme/theguardswedding</p>
-                    <p><strong>Bank Transfer</strong> <br /> BSB 734-640 ACC 500591</p>
-                    <p><strong>Pay Id</strong> <br /> Connor.guard@gmail.com</p>
+                    <p><strong>Bank Transfer</strong> <br />Account Name: Chelsea E Sales <br />BSB: 014 111 <br />ACC: 649 405 344</p>
+                    <p><strong>Pay Id</strong> <br /> 0484 617 582</p>
                 </div>
                 <div className="col-md-6 order-md-2">
                     <h2>Pay Pal</h2>

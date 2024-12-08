@@ -58,9 +58,15 @@ const Home = () => {
                     <div className="col-md-6">
                         <h2>Ceremony & Reception</h2>
                         <p style={{maxWidth: '600px' }}>We’re so excited to invite you to join us on our special day as we exchange vows and celebrate this milestone with good food, great music, and some dancing. We’d love for you to be part of the joy and memories!</p>
-                        <p><strong>Date</strong> - Thursday, 19th June 2025</p>
-                        <p><strong>Time</strong> - 3:00pm - 10:00pm</p>
-                        <p><strong>Location</strong> - The Refinery, 12 Austin St, Newstead QLD 4006</p>
+                        <p><strong>Date</strong>
+                        <br/> Thursday, 19th June 2025</p>
+                        <p><strong>Time</strong>
+                        <br/>3:00pm - Arrival
+                        <br/>3:30pm - Ceremony Begins
+                        <br/>10:00pm - Finish
+                        </p>
+                        <p><strong>Location</strong>
+                        <br/>The Refinery, 12 Austin St, Newstead QLD 4006</p>
                     </div>
                     <div className="col-md-6 order-md-1">
                         <img src={TheRefinery} alt="Reception" className="img-fluid rounded" />
@@ -192,7 +198,7 @@ const Home = () => {
                             <div className="photo-wrapper">
                             <img src={RingBoy} alt="Groomsman 1" className="img-fluid rounded-circle" />
                             </div>
-                            <p className="mt-2">Zepher <br /> <b>Ring Boy</b></p>
+                            <p className="mt-2">Zephyr <br /> <b>Ring Boy</b></p>
                         </div>
                         </div>
                     </div>
@@ -205,7 +211,7 @@ const Home = () => {
         <footer id="rsvp" className="sand-light-bg text-white text-center py-5">
             <div className="mt-5 container">
                 <h2>RSVP</h2>
-                <p>We would be honored by your presence. Please RSVP below</p>
+                <p>We would be honored by your presence. Please RSVP below.</p>
                 <a href="/#rsvp" className="btn btn-light">RSVP Now</a>
             </div>
         </footer>

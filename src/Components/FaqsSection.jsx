@@ -9,7 +9,7 @@ const FaqsSection = () => {
                         <p><strong>Can I bring my children?</strong> <br/> We will be having a (mostly) adult only wedding! Named invitees only please.</p>
                         <p><strong>Is there a dress code?</strong> <br/> Formal / Cocktail attire, find inspo on our home page!</p>
                         <p><strong>Can I bring a plus one?</strong> <br/> Our venue has a strict head count, named invitees only please.</p>
-                        <p><strong>Do you have a registry?</strong> <br/> We have a cozy home and don't require any additional items, but if you'd like, contributions to our honeymoon fund would be greatly appreciated <a href="/#wishing-well" target="_blank" rel="noopener noreferrer">here</a>.</p>
+                        <p><strong>Do you have a registry?</strong> <br/> We have a cozy home and don't require any additional items, but if you'd like make a contribution, please follow the link <a href="/#wishing-well" target="_blank" rel="noopener noreferrer">here</a>.</p>
                         <p><strong>A different question?</strong> <br/> Please contact us at <a href="mailto: chelseasales2017@gmail.com"> chelseasales2017@gmail.com</a>.</p>
                     </div>
                     <div
